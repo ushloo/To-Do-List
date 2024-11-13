@@ -20,7 +20,7 @@
 .add_note_button{
     border: none;
     cursor: pointer;
-    width: 40px;
+    align-items: center;
 }
 
 .user_info{
