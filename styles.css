@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #FFEADC;
+    background-color: #ffeadc;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,6 +20,10 @@ body{
     border-bottom: 1px solid #8D7254;
 }
 
+.container{
+    width: 100%;
+    max-width: 1500px;
+}
 .user_icon{
     height: 60px;
     width: 60px;
