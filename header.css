@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #8D7254;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1500px;
+}
+
+.user_icon{
+    height: 60px;
+    width: 60px;
+}
+
+.add_note_button{
+    border: none;
+    cursor: pointer;
+    width: 40px;
+}
+
+.user_info{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
