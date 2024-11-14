@@ -14,7 +14,7 @@
 .add_note_button{
     border: none;
     cursor: pointer;
-    align-items: center;
+    justify-content: center;
 }
 
 .user_icon{
