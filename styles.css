@@ -12,4 +12,8 @@ body{
     align-items: center;
 }
 
-
+.main_content{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}

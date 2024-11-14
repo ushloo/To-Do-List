@@ -6,21 +6,20 @@
     border-bottom: 1px solid #8D7254;
 }
 
-
 .container{
     width: 100%;
     max-width: 1500px;
-}
-
-.user_icon{
-    height: 60px;
-    width: 60px;
 }
 
 .add_note_button{
     border: none;
     cursor: pointer;
     align-items: center;
+}
+
+.user_icon{
+    height: 60px;
+    width: 60px;
 }
 
 .user_info{
