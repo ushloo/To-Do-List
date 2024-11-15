@@ -1,12 +1,17 @@
-
 .notes{
-    background-color: #ffffff;
+    background-color: white;
     border-radius: 8px;
     width: 200px;
     padding: 1rem;
     text-align: center;
-    position: relative;
     box-shadow: 0 2px 4px lightgray;
+    margin: 0 auto;
+}
+
+.note_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .note_title{
@@ -14,28 +19,18 @@
     margin-bottom: 1rem;
 }
 
-.add_note_button{
-    border: none;
-    cursor: pointer;
-    justify-content: center;
-}
-
 .delete_button{
     background: none;
     border: none;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 .add_task_button{
     background-color: #FFC695;
     border: none;
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 0.5rem 1rem;
     font-size: 0.9rem;
-    margin-top: 1rem;
     cursor: pointer;
-
 }

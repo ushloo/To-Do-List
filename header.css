@@ -6,12 +6,28 @@
     border-bottom: 1px solid #8D7254;
 }
 
-.header h1{
-    font-size: 1.5rem;
-}
-.container{
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     max-width: 1500px;
+}
+
+.add_note_button{
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    border-radius: 8px;
+    background: #FFC695;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_class_icon {
+    background: transparent url("./images/add_plus_icon.svg") no-repeat center;
+    padding: 5px;
 }
 
 .user_icon{
