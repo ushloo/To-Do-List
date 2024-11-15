@@ -17,6 +17,15 @@
     justify-content: center;
 }
 
+.delete_button{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
 .user_icon{
     height: 60px;
     width: 60px;
