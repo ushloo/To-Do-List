@@ -6,6 +6,7 @@
     padding: 1rem;
     text-align: center;
     position: relative;
+    box-shadow: 0 2px 4px lightgray;
 }
 
 .note_title{
