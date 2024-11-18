@@ -1,1 +1,3 @@
-console.log("hi there")
+function balls(){
+    alert("big balls");
+}
