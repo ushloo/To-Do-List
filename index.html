@@ -28,43 +28,42 @@
                 </div>
                 <button type="text" class="add_task_button">Add a Task +</button>
             </div>
-
-            <!-- note form -->
+            <!-- form start -->
             <div class="modal" id="add-card-modal">
                 <div class="modal__container">
-                  <button
+                    <button 
                     class="modal__close-button"
                     id="add-card-close-button"
                     type="button"
-                  ></button>
-                  <p class="modal__heading">New Note</p>
-                  <form class="modal__form" id="add-card-form">
-                    <fieldset class="modal__form-fieldset">
-                      <input
-                        type="text"
-                        name="title"
-                        class="modal__form-input"
-                        placeholder="Title"
-                        id="card-title-input"
-                        minlength="1"
-                        maxlength="30"
-                        required
-                      />
-                      <span class="modal__error" id="card-title-input-error"></span>
-          
-                      <button
-                        class="modal__save-button modal__save-button_disabled"
-                        type="submit"
-                        id="card-save-button"
-                        disabled
-                      >
-                        Note It
-                      </button>
-                    </fieldset>
-                  </form>
+                    >
+                    </button>
+                    <p class="modal__heading">New Note</p>
+                    <form class="modal__form" id="add-card-form">
+                        <fieldset class="modal__form-fieldset">
+                            <input
+                            type="text"
+                            name="title"
+                            class="modal__form-input"
+                            placeholder="Title"
+                            id="card-title-input"
+                            minlength="1"
+                            maxlength="30"
+                            required
+                            />
+                            <span class="modal__error" id="card-title-input-error"></span>
+                            <button
+                            class="modal__save-button modal__save-button_disabled"
+                            type="submit"
+                            id="card-save-button"
+                            disabled
+                            >
+                            Note It
+                            </button>
+                        </fieldset>
+                    </form>
                 </div>
-              </div>
-              
+            </div>
+            <!-- end of form -->
         </main>
     </div>
     <script src="notes.js"></script>
