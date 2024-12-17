@@ -1,10 +1,22 @@
 @import url("../blocks/header.css");
 
+@import url("../blocks/styles.css");
+
 @import url("../blocks/note.css");
 
 @import url("../blocks/noteform.css");
 
-@import url("../blocks/styles.css");
-
 @import url("../blocks/footer.css");
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8e7da;
+    color: #333;
+    line-height: 1.6;
+}

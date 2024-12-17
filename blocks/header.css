@@ -1,44 +1,17 @@
-.header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 2rem;
     border-bottom: 1px solid #8D7254;
 }
 
-.page{
+h1 {
+    font-size: 1.8rem;
+}
+
+main {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    max-width: 1500px;
-}
-
-.add_note_button{
-    border: none;
-    cursor: pointer;
-    width: 160px;
-    height: 50px;
-    border-radius: 8px;
-    background: #FFC695;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button_class_icon {
-    background: transparent url("./images/add_plus_icon.svg") no-repeat center;
-    padding: 5px;
-}
-
-.user_icon{
-    height: 60px;
-    width: 60px;
-}
-
-.user_info{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 20px;
+    padding: 2rem;
 }

@@ -1,7 +1,7 @@
-footer{
-    display: flex;
-    align-items: center;
+footer {
+    text-align: center;
     padding: 1rem;
+    font-size: 0.9rem;
+    color: #777;
     border-top: 1px solid #8D7254;
-    /* margin: 10px 0; */
 }

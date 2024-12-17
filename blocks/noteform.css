@@ -1,132 +1,72 @@
-.modal{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 999;
-    padding: 0 19px;
-    display: flex;
-    visibility: hidden;
-    transition: visibility 0s 0.6s, opacity 0.5s linear;
-    opacity: 0;
-  }
-  
-  .modal_opened {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility 0s, opacity 0.6s;
-  }
-  
-  .modal__container {
+.note-form {
     background-color: #fff;
-    margin: auto;
-    padding: 34px 36px 36px;
-    border-radius: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
     position: relative;
-    width: 430px;
-  }
-  
-  .modal__preview-container {
-    background: transparent;
-    margin: auto;
-    padding: 34px 36px 36px;
-    border-radius: 10px;
-    position: relative;
-    max-width: 75vw;
-    max-height: 75vh;
-  }
-  
-  .modal__close-button {
-    position: absolute;
-    top: -45px;
-    right: -45px;
-    background: transparent url(../images/close-icon.svg) center no-repeat;
-    border: none;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-  }
-  
-  .modal__close-button:hover {
-    cursor: pointer;
-    opacity: 0.6;
-  }
-  
-  .modal__heading {
-    margin: 0 0 54px;
-    color: #000;
-    font-family: "Inter", Arial, serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-  }
-  
-  .modal__form {
-    margin: 0;
-  }
-  
-  .modal__form-fieldset {
-    border: none;
+}
+
+.note-form h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.task-input-container {
     display: flex;
-    flex-direction: column;
-    justify-items: center;
-    padding: 0;
-    margin: 0;
-  }
-
-  .modal__form-input {
-  margin: 0 0 30px;
-  padding: 5px 0 13px 5px;
-  border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #000;
-  font-family: "Inter", Arial, serif;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  outline: none;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
 }
 
-.modal__form-input_type_error {
-  border-bottom: 1px solid rgb(255, 0, 0);
+.task-input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
 }
 
-.modal__save-button {
-  margin: 18px 0 0;
-  width: 100%;
-  padding: 0;
-  background-color: #000;
-  border: none;
-  height: 50px;
-  text-align: center;
-  color: #fff;
-  font-family: "Inter", Arial, serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.add-task-btn {
+    background-color: #ffb997;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
-.modal__save-button_disabled {
-  background: rgba(0, 0, 0, 0.8);
+.add-task-btn:hover {
+    background-color: #ff9f80;
 }
 
-.modal__save-button:hover {
-  cursor: pointer;
-  opacity: 0.8;
+.delete-note-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #ff6b6b;
 }
 
-.modal__error {
-  font-size: 12px;
-  font-family: "Inter", Arial, serif;
-  line-height: 15px;
-  color: red;
-  position: relative;
-  bottom: 25px;
-  transition: opacity 0.3s;
-  opacity: 1;
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f8e7da;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    color: #333;
+    animation: fadeInOut 3s;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    20%, 80% { opacity: 1; }
 }
